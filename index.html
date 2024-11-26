@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>pokedex</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="./pokemonhome.js" defer></script>
+</head>
+
+<body>
+  <div class="main">
+    <header>
+      <div class="header-1">
+        <div class="pokedex-name"><img class="pokebalImg" src="./assest/pokeball.svg" alt="pokedex">
+          <h1>PokeDex</h1>
+        </div>
+        <input class="filter-search" type="text" placeholder="Search">
+        <div class="short-by">
+          <p class="short-para">Shot-By: </p>
+          <div class="filter">
+            <div class="number">
+              <input type="radio" id="number" name="filter" value="number" checked><label for="number">Number</label>
+              <div class="number">
+              </div>
+              <div class="name">
+                <input type="radio" id="name" name="filter" value="name">
+                <label for="name">Name</label>
+              </div>
+            </div>
+          </div>
+        </div>
+    </header>
+
+    </section>
+    <section class="pokemon-list">
+      <div class="container">
+        <div class="list-wrapper"></div>
+      </div>
+      <div id="not-found">Pokemon not found</div>
+    </section>
+  </div>
+</body>
+
+</html>
